@@ -18,13 +18,20 @@
       <section class="year-one" aria-labelledby="year-one-title">
         <div>
           <p class="eyebrow" id="year-one-title">Checked Year 1 winter example</p>
-          <p>This matches your Group 1 winter result. Use it as a quick check that the calculation logic makes sense.</p>
+          <p>Start with the example below, then save your team’s Winter, Spring, Summer, and Autumn results.</p>
         </div>
         <div class="facts">
           <div><span>Sales</span><strong>50,000</strong></div>
           <div><span>Net profit</span><strong>Sh 4,171</strong></div>
           <div><span>Closing cash</span><strong>Sh 73,546</strong></div>
         </div>
+      </section>
+
+      <section class="season-calculator" aria-labelledby="season-title">
+        <div class="section-heading"><div><p class="eyebrow">Year 1 calculator</p><h2 id="season-title">Enter each Year 1 season</h2><p>Your figures save automatically as you type.</p></div><label class="season-picker">Season<select id="season-select"><option>Y1 Winter</option><option>Y1 Spring</option><option>Y1 Summer</option><option>Y1 Autumn</option></select></label></div>
+        <div class="inputs season-inputs" id="season-inputs"></div>
+        <div class="season-actions"><button class="secondary" id="clear-season">Clear this season</button><span id="save-message" aria-live="polite"></span></div>
+        <div class="year-summary" id="year-summary"></div>
       </section>
 
       <section class="plans" aria-label="Year 2 winter plan comparison">
