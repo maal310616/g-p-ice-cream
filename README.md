@@ -1,9 +1,7 @@
-cd 
-"/Users/maal/Documents/Codex/2026-09-16/hey-can-you-please-literally-explain/outputs/pork-garlic-decision-tool"
+# Pork and Garlic Ice Cream Decision Tool
 
-git init
-git add .
-git commit -m "First version of decision tool"
-git branch -M main
-git remote add origin https://github.com/maal310616/g-p-ice-cream.git
-git push -u origin main
+A simple Year 2 winter comparison tool for the Pork and Garlic Ice Cream Co. assignment.
+
+Open `index.html` to use it. Change the yellow inputs to test two Year 2 winter options. The starting Year 1 winter figures are based on Group 1's completed winter example.
+
+Before submitting, replace Year 2 estimates with the trainer's confirmed rules and test the published Vercel site.

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pork and Garlic Ice Cream Decision Tool</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <p class="eyebrow">Year 2 winter planning</p>
+        <h1>Pork and Garlic Ice Cream Decision Tool</h1>
+        <p class="intro">Compare a safer plan with a growth plan. All Year 2 figures are estimates until your trainer gives the new rules.</p>
+      </header>
+
+      <section class="year-one" aria-labelledby="year-one-title">
+        <div>
+          <p class="eyebrow" id="year-one-title">Checked Year 1 winter example</p>
+          <p>This matches your Group 1 winter result. Use it as a quick check that the calculation logic makes sense.</p>
+        </div>
+        <div class="facts">
+          <div><span>Sales</span><strong>50,000</strong></div>
+          <div><span>Net profit</span><strong>Sh 4,171</strong></div>
+          <div><span>Closing cash</span><strong>Sh 73,546</strong></div>
+        </div>
+      </section>
+
+      <section class="plans" aria-label="Year 2 winter plan comparison">
+        <article class="plan safe">
+          <div class="plan-heading"><p class="eyebrow">Option 1</p><h2>Safe winter</h2><p>Lower production and lower cash risk.</p></div>
+          <div class="inputs" id="safe-inputs"></div>
+          <div class="results" id="safe-results" aria-live="polite"></div>
+        </article>
+        <article class="plan growth">
+          <div class="plan-heading"><p class="eyebrow">Option 2</p><h2>Growth winter</h2><p>More production, with more risk if sales are lower.</p></div>
+          <div class="inputs" id="growth-inputs"></div>
+          <div class="results" id="growth-results" aria-live="polite"></div>
+        </article>
+      </section>
+
+      <section class="recommendation" aria-labelledby="recommendation-title">
+        <p class="eyebrow" id="recommendation-title">Recommendation</p>
+        <p id="recommendation-text"></p>
+        <p class="assumption"><strong>Most important assumption:</strong> the trainer may allocate fewer sales than you request. Change “Actual allocated sales” to test this before deciding.</p>
+      </section>
+
+      <section class="how-to">
+        <h2>How to use this</h2>
+        <ol>
+          <li>Replace the yellow Year 2 estimates when you receive new rules.</li>
+          <li>Test lower allocated sales, not only the best-case outcome.</li>
+          <li>Choose the option that keeps cash positive and is easiest to explain.</li>
+        </ol>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
